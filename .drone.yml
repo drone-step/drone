@@ -7,6 +7,8 @@ steps:
   pull: if-not-exists # always never
   environment:
     KEY: VALUE
+    GO111MODULE: on
+    GOPROXY: https://goproxy:cn,direct
   commands:
     - echo $KEY
     - pwd
