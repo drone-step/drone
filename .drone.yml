@@ -8,7 +8,7 @@ steps:
   environment:
     KEY: VALUE
     GO111MODULE: on
-    GOPROXY: https://goproxy:cn,direct
+    GOPROXY: https://goproxy.cn,direct
   commands:
     - echo $KEY
     - pwd
